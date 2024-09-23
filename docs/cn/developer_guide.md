@@ -2076,7 +2076,7 @@ int32 task_sub_status
 - 启动方式见启动任务action接口，其中所需的关键goal字段包含：
 
 ```js
-"nav_type: 1"         # 1表示启动建图
+"nav_type: 5"         # 5表示启动建图
 
 "out_door: false"     # false表示室内建图，即激光建图
 ```
@@ -2084,7 +2084,7 @@ int32 task_sub_status
 - 关闭方式见关闭任务service接口，其中所需的关键request字段包含：
 
 ```js
-"task_id: 1"          # 1表示关闭建图
+"task_id: 5"          # 1表示关闭建图
 ```
 
 ### 视觉建图 
@@ -2095,7 +2095,7 @@ int32 task_sub_status
 - 启动方式见启动任务action接口，其中所需的关键goal字段包含：
 
 ```js
-"nav_type: 1"         # 1表示启动建图
+"nav_type: 5"         # 5表示启动建图
 
 "out_door: true"      # true表示室外建图，即视觉建图
 ```
@@ -2103,7 +2103,7 @@ int32 task_sub_status
 - 关闭方式见关闭任务service接口，其中所需的关键request字段包含：
 
 ```js
-"task_id: 1"          # 1表示关闭建图
+"task_id: 5"          # 5表示关闭建图
 ```
 
 ### AB点导航 
@@ -2113,7 +2113,7 @@ int32 task_sub_status
 - 启动方式见启动任务action接口，其中所需的关键goal字段包含：
 
 ```js
-"nav_type: 5"         # 5表示启动AB点导航
+"nav_type: 1"         # 1表示启动AB点导航
 
 "poses: 
 
@@ -2127,7 +2127,7 @@ int32 task_sub_status
 - 关闭方式见关闭任务service接口，其中所需的关键request字段包含：
 
 ```js
-"task_id: 5"          # 5表示关闭AB点导航
+"task_id: 1"          # 1表示关闭AB点导航
 ```
 
  
